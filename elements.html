@@ -1,0 +1,1797 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Nahye's Portfolio</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <link rel="manifest" href="site.webmanifest"> -->
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- CSS here -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/gijgo.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/slicknav.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+	<!-- plus by 나혜 -->
+	<style>
+
+		/* 각 프로젝트의 틀 */
+		#elements-wrap {background-color: white; padding:70px 20px; box-shadow:10px 10px 150px rgba(195, 166, 248, 0.548);}
+
+		#project1 table, #project2 table {width: 100%; border: 1px solid #eee;
+			border-collapse: collapse; margin-top: 10px;
+		}
+
+		#project1 table th, #project2 table th {border: 1px solid #eee;background-color: #FFC96B; padding: 5px 10px;}
+
+		#project1 table td, #project2 table td {border: 1px solid #eee; padding: 10px 10px;}
+
+		/*  좌상단 이미지 띄우기 */
+		
+		.imgLogin {
+			position: relative;
+		}
+
+		#project1 .mainimage, #project2 .mainimage, #project3 .mainimage {
+			width: 40%;
+			float: right;
+			margin: 0 0 10px 10px;
+			margin-left: 10px;
+			
+		}
+
+		#project1 figcaption {
+			position: absolute;
+			right: 0px;
+			top: 310px;
+			font-size: 14px;
+			width: 180px;
+			text-align: center;
+			background-color: rgba(255, 180, 20, 0.3);
+		}
+
+		#project2 figcaption {
+			position: absolute;
+			right: 0px;
+			top: 290px;
+			font-size: 14px;
+			width: 180px;
+			text-align: center;
+			background-color: rgba(255, 180, 20, 0.3);
+		}
+
+		#project3 figcaption {
+			position: absolute;
+			right: 0px;
+			top: 600px;
+			font-size: 14px;
+			width: 180px;
+			text-align: center;
+			background-color: rgba(255, 180, 20, 0.3);
+		}
+
+		#project3-cab {text-align: right;}
+
+		#erd1, #erd2 { width: 530px; }
+
+		#erdTbl {
+			text-align: center;
+			border: 0px;
+			
+		}
+
+		#erdTbl tr td {border: 0px;}
+
+		#erdTbl tr:last-child > td {border: 0px; font-size: .9em; color: #999;}
+
+		/* .container p {margin-bottom: 30px;} */
+		
+		/* 상단으로 이동버튼 */
+		.back {
+			text-align: center;
+			margin: 80px auto 10px auto;
+		}
+		.back > a {color: white; 
+			font-size: 1.1em; 
+			border: 2px solid #eee;
+			border-radius: 50px;
+			background-color: #fca650;
+			padding: 8px 15px;
+		}
+		.back > a:hover {
+			background-color: #995FFF;	
+			opacity: 1;
+			text-decoration: none;
+		}	
+
+		/* 3번째프로젝트 표 */
+		#webtbl {margin: 15px auto; border-bottom: #999; }
+		#webtbl td {height: 240px; width: calc(1110px/5); }
+		#webtbl .img .td_hover {overflow:hidden; text-align: center; vertical-align: middle;}
+		#webtbl .img .td_hover div {max-height: 190px;}
+		#webtbl .img-desc td {height: 50px;}
+		.tblimage {max-width: 100%;}
+
+		/* 3번째 프로젝트 */
+		.td_hover:hover {
+			background-color: rgba(97, 92, 253, .7);
+			color: white;
+			transition: 1s;
+		}
+
+		/* .tblimage:hover {display: none}; */
+		/* .tblimage:hover {visibility: hidden}; */
+
+		
+
+
+
+	</style>
+
+
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+			<div class="header-area ">
+				<div id="sticky-header" class="main-header-area">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-xl-3 col-lg-2">
+								<div class="logo">
+									<a href="index.html">
+										<img src="img/logo.png" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-7">
+								<div class="main-menu  d-none d-lg-block">
+									<nav>
+										<ul id="navigation">
+											<li><a class="active" href="index.html">home</a></li>
+											<li><a href="about.html">About</a></li>
+											<li><a href="portfolio.html">Portfolio</a></li>
+                                 <li><a href="elements.html">Elements</a></li>
+											<li><a href="contact.html">Contact</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<!-- <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+								<div class="Appointment">
+									<div class="book_btn d-none d-lg-block">
+										<a  href="#">Contact Me</a>
+									</div>
+								</div>
+							</div> -->
+							<div class="col-12">
+								<div class="mobile_menu d-block d-lg-none"></div>
+							</div>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header-end -->
+	
+		<!-- bradcam_area  -->
+		<div class="bradcam_area bradcam_bg_1">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="bradcam_text text-center">
+							<h3>Elements</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /bradcam_area  -->
+	
+		<!-- 세번째 프로젝트 -->
+	<a name="thirdProject"></a>
+	<section id="project3" class="sample-text-area">
+		<div class="container box_1170" id="elements-wrap">
+			<h3 class="text-heading">◆ Servlet과 JSP를 활용한 웹 프로젝트
+				<input type="button" onclick="location.href='https://github.com/rizzy-yu/project3.git';" value="Github" class="btn btn-success btn-sm"></h3>
+			</h3>
+			<figure class="imgLogin">
+				<a href="img/elements/project3/main.png" class="popup popup-image"><img src="img/elements/project3/main.png" alt="login" class="mainimage"></a>
+				<figcaption><b>▲</b> 이미지 클릭하여 확대가능</figcaption>
+			</figure>
+			
+			<!-- <p class="sample-text"> -->
+				<strong>프로젝트명 |</strong><br>
+				<b>공공도서관 운영시스템 (Public Library Management System)</b><br>
+				<br>
+				<strong>요약 |</strong><br>
+				<p>
+				이용자들에게 '최적화' &  관리자에게 '편리함'을 제공하는 도서관시스템</p>
+				<br>
+				<strong>기간 |</strong><br>
+				<p>2021. 07. 13 ~ 2021. 08. 05 (약 3주) </p>
+				<br>
+				<strong>기획배경 |</strong><br>
+				<p>
+				- '책'이라는 컨텐츠를 통해 취향을 알고 싶고, 드러내고 싶어하는 이용자들의 니즈 증가<br>
+				- 사용자 친화적인 도서관 사이트에 대한 니즈<br>
+				</p><br>
+				<strong>세부 기능 사항 |</strong><br>
+				<p>
+					1) 이용자<p>
+						<b>도서 검색 서비스</b><br>
+						- 상세검색, 주제별 검색서비스 제공<br>
+						<br>	
+						<b>도서관 위치 서비스</b><br>
+						- 카카오 맵 API을 통한 이동경로 안내<br>
+						<br>	
+						<b>독서 건강 분석 서비스</b><br>
+						- 차트, 이미지를 통한 시각적 지표<br>
+						<br>
+						<b>도서에 대한 정성적, 정량적 지표</b><br>
+						- 이용자들의 능동적 참여가능
+						- 후기작성서비스, 도서 대출 권수 차트 제공
+					</p>
+				<br>
+					2) 관리자
+					<p>
+						<b>회원관리 메일시스템</b><br>
+						- 연체이용자에 대한 메일 송신 시스템<br>
+						<br>	
+						<b>회원 별 상세 관리시스템</b><br>
+						- 회원 별 상세정보 열람기능<br>
+						<br>
+						<b>홈페이지 기능 자동화구현</b><br>
+						- 도서관 소장자료 현황 장서 수 및 차트 자동화 기능
+					</p>
+				</p>
+				<br>
+				<br>
+				<strong>개발환경 |</strong>
+				<table class="table table-bordered" style="margin-top: 15px; width:700px;">
+					<tr>
+						<th>플랫폼</th>
+						<td>Windows 10</td>
+					</tr>
+					<tr>
+						<th>언어</th>
+						<td>Java, HTML, CSS, JavaScript</td>
+					</tr>
+					<tr>
+						<th>도구</th>
+						<td>
+							<ul>
+								<li>Eclipse</li>
+								<li>SQL Developer</li>
+								<li>Visual Studio Code</li>
+								<li>eXERD, Kakao oven</li>
+								</ul>
+						</td>
+					</tr>
+					<tr>
+						<th>DB</th>
+						<td>Oracle</td>
+					</tr>
+					<tr>
+						<th>
+							WAS
+						</th>
+						<td>Apache Tomcat 8.5</td>
+					</tr>
+				</table>
+				<br><br>
+				<strong>구현화면(순서도 & ERD) |</strong><br>
+				<table id="erdTbl">
+					<tr>
+						<td><a href="img/elements/project3/level.png" class="popup popup-image"><img src="img/elements/project3/level.png" alt="erd" id="erd1"></a></td>
+						<td style="padding-left: 30px;"><a href="img/elements/project3/ERD.png" class="popup popup-image"><img src="img/elements/project3/ERD.png" alt="erd" id="erd2"></a></td>
+					</tr>
+					<tr>
+						<td>[순서도]</td>
+						<td>[ERD]</td>
+					</tr>
+				</table>
+				<br>
+				<!-- 담당업무 -->
+				<strong>담당업무 |</strong><br>
+				<b>도서검색</b>
+				<p><b>-상세검색, 주제별검색, 신착도서별검색, 대출베스트검색, 검색결과목록, 도서상세페이지, 희망도서 신청</b></p><br>
+				<b>알림마당</b>
+				<p><b>- 공지사항, 자주하는 질문(FAQ), 문의하기 조회, 문의하기 글쓰기(잠금기능), 게시물 수정, 게시물 삭제</b></p><br>
+				<br><br>
+				<strong>구현화면(WEB) |</strong><br>
+				<p id="project3-cab">(▼ 원하는 이미지를 클릭하여 확인)</p>
+				<table class="table" id="webtbl">
+					<tr>
+						<td colspan="5" style="height: 50px; vertical-align: bottom;"><b>도서검색</b></td>
+					</tr>
+					<tr class="img">
+						<td class="td_hover"><div><a href="img/elements/project3/1-1.png" class="popup popup-image"><img src="img/elements/project3/1-1.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-1.png" class="popup popup-image"><img src="img/elements/project3/1-1-1.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-2.png" class="popup popup-image"><img src="img/elements/project3/1-1-2.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-2-1.png" class="popup popup-image"><img src="img/elements/project3/1-1-2-1.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-2-2.png" class="popup popup-image"><img src="img/elements/project3/1-1-2-2.png" alt="login" class="tblimage"></a></div></td>
+					</tr>
+					<tr class="img-desc">
+						<th>도서검색 페이지 </th>
+						<th>상세조건 검색결과</th>
+						<th>주제별 검색결과</th>
+						<th>도서위치 출력</th>
+						<th>관심도서담기(회원)</th>
+					</tr>
+					<tr class="desc">
+						<td>이용자는 도서를 상세검색과 주제별검색으로 검색할 수 있다.</td>
+						<td>이용자는 '상세 조건'으로 검색한 도서결과 목록을 확인할 수 있다.</td>
+						<td>이용자는 도서의 주제(장르)를 선택하여 도서결과 목록을 확인할 수 있다.</td>
+						<td>도서 결과목록에서 원하는 도서의 '위치출력'을 버튼을 누른 상태이다.</td>
+						<td>원하는 도서의 '관심도서담기'버튼을 누른 상태이다.</td>
+					</tr>
+					<tr class="img">
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-2-3(1).png" class="popup popup-image"><img src="img/elements/project3/1-1-2-3(1).png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-2-3(2).png" class="popup popup-image"><img src="img/elements/project3/1-1-2-3(2).png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-2-3-1.png" class="popup popup-image"><img src="img/elements/project3/1-1-2-3-1.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-1-2-3-2.png" class="popup popup-image"><img src="img/elements/project3/1-1-2-3-2.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-2.png" class="popup popup-image"><img src="img/elements/project3/1-2.png" alt="login" class="tblimage"></a></div></td>
+					</tr>
+					<tr class="img-desc">
+						<th>도서 상세보기(1)</th>
+						<th>도서 상세보기(2) -<br>후기 삭제버튼(회원)</th>
+						<th>도서 상세보기 - <br>네이버책 연동</th>
+						<th>도서 상세보기 - <br>도서예약하기(회원)</th>
+						<th>신착자료 검색페이지</th>
+					</tr>
+					<tr class="desc">
+						<td>원하는 도서의 이름을 클릭하면 도서 상세페이지로 이동한다.</td>
+						<td>로그인한 회원의 경우, 자신이 작성한 후기의 삭제버튼이 활성화된다.</td>
+						<td>'네이버 상세정보'버튼을 누르면, 네이버 책 사이트로 연동되어 자세한 책정보를 확인할 수 있다.</td>
+						<td>도서가 '대출가능'한 상태인 경우, 자동으로 '도서예약' 버튼이 활성화되어 도서를 예약할 수 있다.</td>
+						<td>이용자는 원하는 조건(기간, 장르)을 입력하여 신착도서 목록을 확인할 수 있다.</td>
+					</tr>
+					<tr class="img">
+						<td class="td_hover"><div><a href="img/elements/project3/1-3.png" class="popup popup-image"><img src="img/elements/project3/1-3.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-4.png" class="popup popup-image"><img src="img/elements/project3/1-4.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-4-1.png" class="popup popup-image"><img src="img/elements/project3/1-4-1.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-4-2.png" class="popup popup-image"><img src="img/elements/project3/1-4-2.png" alt="login" class="tblimage"></a></div></td>
+						<td class="td_hover"><div><a href="img/elements/project3/1-4-3.png" class="popup popup-image"><img src="img/elements/project3/1-4-3.png" alt="login" class="tblimage"></a></div></td>
+					</tr>
+					<tr class="img-desc">
+						<th>대출베스트 검색페이지</th>
+						<th>희망도서 신청페이지(회원)</th>
+						<th>희망도서 신청 - 도서검색</th>
+						<th>희망도서 신청 - <br>신청페이지</th>
+						<th>희망도서 신청 - <br>네이버책 검색API</th>
+					</tr>
+					<tr class="desc">
+						<td>이용자는 원하는 조건(기간, 장르, 연령대)을 입력하여 대출베스트 도서목록을 확인할 수 있다.</td>
+						<td>로그인한 회원의 경우, 희망도서를 신청할 수 있다.</td>
+						<td>희망하는 도서가 있는지 먼저 검색해볼 수 있다.</td>
+						<td>희망도서가 없는 경우, '희망도서신청' 버튼을 눌러 신청창을 확인할 수 있다.</td>
+						<td>도서의 정보를 입력하기 위해 네이버 책검색 API를 활용하여 책의 정보를 검색해볼 수 있다.</td>
+					</tr>
+					<tr>
+						<td colspan="5" style="height: 50px; vertical-align: bottom;"><b>알림마당</b></td>
+					</tr>
+					<tr class="img">
+						<td class="td_hover"><a href="img/elements/project3/2-1.png" class="popup popup-image"><img src="img/elements/project3/2-1.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-1-1.png" class="popup popup-image"><img src="img/elements/project3/2-1-1.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-2.png" class="popup popup-image"><img src="img/elements/project3/2-2.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-3.png" class="popup popup-image"><img src="img/elements/project3/2-3.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-3(1).png" class="popup popup-image"><img src="img/elements/project3/2-3(1).png" alt="login" class="tblimage"></a></td>
+					</tr>
+					<tr class="img-desc">
+						<th>공지사항 페이지</th>
+						<th>공지사항 - 글조회</th>
+						<th>자주하는질문(FAQ) 페이지</th>
+						<th>문의하기 페이지</th>
+						<th>문의하기 - 조건검색결과</th>
+					</tr>
+					<tr class="desc">
+						<td>이용자는 공지사항 목록을 확인할 수 있으며, 원하는 조건(제목, 내용, 제목+내용)으로 공지사항을 검색할 수 있다.</td>
+						<td>이용자는 원하는 공지사항 게시물을 조회할 수 있으며, 조회수는 자동으로 계산된다.</td>
+						<td>이용자는 자주하는질문(FAQ)목록을 확인할 수 있으며, 원하는 카테고리(회원가입, 도서관이용, 도서관자료, 기타)를 설정하여 각 카테고리에 알맞는 항목들만 확인할 수 있다.</td>
+						<td>모든 이용자는 잠금기능이 걸리지 않은 문의하기 게시글은 조회가 가능하며, 잠금기능이 걸린 게시물의 경우엔 해당 게시물을 작성한 회원만이 비밀번호 입력 후 조회가 가능하다.</td>
+						<td>이용자는 원하는 조건(제목, 내용, 제목+내용)으로 문의하기 게시글을 검색하여 문의하기 목록을 확인할 수 있다. 관리자의 답변이 달린 경우엔, ‘완료’라는 상태로 표시된다.</td>
+					</tr>
+					<tr class="img">
+						<td class="td_hover"><a href="img/elements/project3/2-3-1.png" class="popup popup-image"><img src="img/elements/project3/2-3-1.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-3-2.png" class="popup popup-image"><img src="img/elements/project3/2-3-2.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-3-2-1.png" class="popup popup-image"><img src="img/elements/project3/2-3-2-1.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-3-3.png" class="popup popup-image"><img src="img/elements/project3/2-3-3.png" alt="login" class="tblimage"></a></td>
+						<td class="td_hover"><a href="img/elements/project3/2-3-4.png" class="popup popup-image"><img src="img/elements/project3/2-3-4.png" alt="login" class="tblimage"></a></td>
+					</tr>
+					<tr class="img-desc">
+						<th>문의하기 - 글쓰기(회원)</th>
+						<th>문의하기 - 글 잠금기능</th>
+						<th>문의하기 - 글조회하기</th>
+						<th>문의하기 - 글수정하기<br>(회원)</th>
+						<th>문의하기 - 글삭제하기<br>(회원)</th>
+					</tr>
+					<tr class="desc">
+						<td>로그인한 회원의 경우, 하단에 '글쓰기'버튼이 자동으로 활성화되어 문의하기 게시글을 작성할 수 있다. 잠금기능을 원하는 경우, 비밀번호를 설정할 수 있다.</td>
+						<td>잠금기능이 걸린 글을 조회하는 경우, 비밀번호를 입력해야 조회가 가능하다.</td>
+						<td>이용자는 비밀번호를 입력 후, 자신의 게시글을 조회할 수 있다.</td>
+						<td>이용자는 자신의 게시글을 수정할 수 있다.</td>
+						<td>이용자는 자신의 게시글을 삭제할 수 있다.</td>
+					</tr>
+				</table>
+				<hr>
+				<br>
+				<strong>프로젝트 스토리 |</strong><br><br>
+				앞서 익혀둔 Java, Oracle(DB)을 바탕으로 Servlet & JSP기술을 활용하여 '웹 프로젝트'가 진행되었습니다.<br>
+				이전 프로젝트와 비교했을때, 훨씬 프로젝트의 규모도 커지고 사용하는 언어의 종류도 다양해지다보니 막연함에서 오는 두려움이 있었습니다.<br>
+				그러나, 팀원들과 함께 기획서부터 요구분석서, UI화면설계서 등 구현이전의 약 5~6가지의 서류를 작성하다보니 추상적으로만 그려졌던 프로젝트가 머리속에서 구체화되었습니다.
+				ERD를 함께 그리며 개체간의 구조를 파악했고, 이를 토대로 DDL & DML를 작성하는 과정을 통해 프로젝트의 전반적인 흐름을 익혔습니다. 이러한 과정들을 통해, 제가 맡은 부분의 기능이 어떤 데이터를 활용하여 구현되면될지 파악할 수 있었습니다. 매번 서류의 중요성을 느끼지만, 프로젝트의 규모가 커질수록 그 중요성은 더 강조되는 것 같습니다.<br>
+				<br>
+				특히 이번 프로젝트는 일상생활에서 쉽게 접할 수 있는 웹 페이지에서의 기능들을 직접 구현해보며, 이전 프로젝트들(Java, Oracle)에 비해 성취감이 가장 높았습니다. 프로젝트에 알맞는 컨셉의 로고와 이미지를 만들어 직접 웹디자인에 적용하였고, 헤더와 푸터, 네비게이션 부분엔 어떤 요소들이 들어갈지 팀원들과 상의하며 템플릿을 만들었습니다. 그 과정들을 통해 프론트앤드 개발의 재미를 느낄 수 있었습니다. 또한, 사용자의 입력한 값을 서버에서 응답하여 처리하고, 다시 응답해주는 과정을 통해 백앤드의 재미와 매력을 제대로 느낄 수 있었습니다. 특히, 수업시간에는 잘 알 수 없었던 hidden태그의 중요성과 Bootstrap, JSTL의 편리함을 절실히 느낄 수 있었습니다.<br> 
+				또한, 데이터를 가공하여 시각적으로 처리하는 차트(HighChart 사용)구현과 오픈 API를 직접 사용해보며 웹페이지의 완성도와 활용도를 높여나가는 재미를 느낄 수 있었습니다.
+				모든 기능들이 구현된 후, 팀원들과 함께 모여 각 페이지에 구현된 기능들이 서로 연동성을 가지며 완성된 모습을 보았을 때 팀원들에게 감사함을 느꼈습니다. 맡은 부분을 성실히 구현해준 팀원들이 있었기에 프로젝트의 완성도가 높아질 수 있었고, 그만큼 성취감은 배가 되었던 것 같습니다. 
+				
+
+				</p>
+		</div>
+		<div class="back"><a href="#project3">프로젝트 상단으로 이동</a></div>
+	</section>
+	<hr>
+	
+
+<!-- 2번째 프로젝트 -->
+	<hr>
+	<a name="acedemy"></a>
+	<section id="project2" class="sample-text-area">
+		<div class="container box_1170" id="elements-wrap">
+			<h3 class="text-heading">◆ 오라클을 활용한 데이터베이스 프로젝트
+				<input type="button" onclick="location.href='https://github.com/rizzy-yu/project2.git';" value="Github" class="btn btn-success btn-sm"></h3>
+			<figure class="imgLogin">
+				<a href="img/elements/project2/ERD_논리테이블.png" class="popup popup-image"><img src="img/elements/project2/ERD_논리테이블.png" alt="login" class="mainimage"></a>
+				<figcaption><b>▲</b> 이미지 클릭하여 확대가능</figcaption>
+			</figure>
+			
+			<!-- <p class="sample-text"> -->
+				<strong>프로젝트명 |</strong><br>
+				<b>교육센터 운영 프로그램 (Acedemy Management Program)</b><br>
+				<br>
+				<strong>요약 |</strong><br>
+				<p>
+				관리자, 교사, 교육생에게 교육센터를 이용시, 필요한 서비스를 제공하는 프로그램</p>
+				<br>
+				<strong>기간 |</strong><br>
+				<p>2021. 05. 24(월) ~ 2021. 06. 04(금) (14일간)</p>
+				<br>
+				<strong>기획배경 |</strong><br>
+				<p>
+				- 교육센터를 중심으로 다양한 이해관계가 형성되어 있어, 다량의 데이터를 활용한 프로젝트에 적합<br>
+				- 실질적으로 교육센터에서 제공하는 비품 대여 및 관리서비스의 연동 부재<br>
+				</p><br>
+				<strong>구현목표 |</strong><br>
+				<p style="margin-bottom: 10px;"><!-- <div class="section-top-border"> -->
+					<div class="row">
+						<div class="col-md-4">
+							<div class="single-defination">
+								<strong>1.</strong><br>
+								<p>관리자, 교사, 교육생에 필요한 기본 기능 구현</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="single-defination">
+								<strong>2.</strong><br>
+								<p>비품 관리 및 대여서비스에 대한 기능 구현<br>(반납을 모두 완료해야 수료 가능)</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="single-defination">
+								<strong>3.</strong><br>
+								<p>코로나 상황에 알맞는 <br>대면(화, 목) / 비대면(월, 수, 금) 출석 구현</p>
+							</div>
+						</div>
+					</div>
+				</p>
+				<!-- </div> -->
+				<br>
+				<strong>세부 기능 사항 |</strong><br>
+				<p>관리자 - 기초 정보 관리, 교사 계정 관리, 개설 과정 관리, 개설 과목 관리, 교육생 관리,<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				성적 조회, 비품 관리 기능<br>
+				교사 - 강의스케줄 조회, 배점 입출력, 성적 입출력, 출결 관리 및 출결 조회, 비품 대여 기능<br>
+				교육생 - 성적 조회, 출결 관리 및 출결 조회, 비품 대여 기능</p>
+				<!-- - 본 프로그램을 이용하여 농장관리(회원관리, 인사관리, 농자재관리)를 수행할 수 있음<br>
+				- 주말 농장 운영에 필요한 회원관리, 인사관리 등의 시스템 구축을 돕는 프로그램<br> -->
+				<br>
+				<strong>사용기술 |</strong>
+				<table>
+					<tr>
+						<th>상세내용</th>
+						<th>산출물</th>
+					</tr>
+					<tr>
+						<td>ERD 생성 - exerd 활용</td>
+						<td>논리 테이블, 물리 테이블</td>
+					</tr>
+					<tr>
+						<td>테이블 생성</td>
+						<td>DDL Script(create, drop)</td>
+					</tr>
+					<tr>
+						<td>더미 데이터 생성 - Java 활용</td>
+						<td>DML Script(insert)</td>
+					</tr>
+					<tr>
+						<td>Text SQL 작성</td>
+						<td>DML Script(select, insert, update, delete)</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+							<li>뷰 생성</li>
+							<li>함수, 프로시저 생성</li>
+							<li>트리거 생성</li>
+							<li>인덱스 생성</li>
+							</ul>
+						</td>
+						<td>Script</td>
+					</tr>
+				</table>
+				<br><br>
+				<!-- 담당업무 -->
+				<strong>담당업무 |</strong><br><br>
+				<b>교사 관련 기능</b><br>
+				<p>
+				<b>- 로그인, 강의스케줄 관리, 배점 입출력, 성적 입출력, 출결 관리 및 출결 조회, 비품 대여 기능</b><br>
+				</p>
+				<br><br>
+				<strong>구현화면(ERD) |</strong><br>
+				<table id="erdTbl">
+					<tr>
+						<td ><a href="img/elements/project2/ERD_논리테이블.png" class="popup popup-image"><img src="img/elements/project2/ERD_논리테이블.png" alt="erd" id="erd1"></a></td>
+						<td ><a href="img/elements/project2/ERD_물리테이블.png" class="popup popup-image"><img src="img/elements/project2/ERD_물리테이블.png" alt="erd" id="erd2"></a></td>
+					</tr>
+					<tr>
+						<td>[논리테이블]</td>
+						<td>[물리테이블]</td>
+					</tr>
+				</table>
+				<br>
+				<strong>프로젝트 스토리 |</strong><br>
+				Oracle이라는 언어와 SQL Devloper라는 툴로 데이터를 전문적으로 다룰 수 있다는 것 자체가 흥미로웠습니다.
+				사용자가 원하는 조건을 입력하면 원하는 데이터를 얻을 수 있는 쿼리를 작성하는 것 자체가 일련의 시스템을 만드는 작업으로 느껴졌고, 그런 의미에서 단순한 select문만 작성하는 것을 넘어 매개변수를 입력받아 데이터를 처리하는 프로시저가 상당히 매력적으로 느껴졌습니다.
+				
+				사실, 이전 프로젝트들에서는 '코드구현' 이외에 이전의 서류과정들에 대한 의문점이 있었습니다. 하지만 프로젝트의 규모가 커질수록 이 과정들의 중요성을 더 느낄 수 있었던 것 같습니다. 서류들이 디테일하게 작성될수록 구현과정에서 의문점이 없이 구현에만 집중할 수 있었기 때문입니다. 실제로 이전 프로젝트들에 비해 훨씬 디테일해진 문서들 덕분에 맡은 부분의 기능을 좀더 수월하게 구현할 수 있었습니다. 
+				특히 프로젝트를 통해 ERD의 중요성을 크게 느꼈습니다. 프로젝트에서 다양한 데이터가 사용되는 만큼, 각 객체 간의 구조와 연결성을 제대로 파악하고 있어야 그에 알맞은 테이블을 join하고, where 절을 작성할 수 있었습니다. 따라서, 제3 정규화 과정까지 거치면서 ERD의 완성도를 최대한 높일 수 있도록 노력했습니다. 또한, DDL 작성 시 Primary key와 Foreign key 이외에 제약사항들을 걸어 무결성을 깨지 않으려고 노력했습니다.<BR>
+				<BR>
+				DB는 포트 포워딩 방식으로 팀원들과 동시다발적으로 DB를 구축했습니다. 이 과정에 있어서 commit의 중요성을 배웠으며, commit의 시점을 잘 기억해놓고 일을 진행하는 것 또한 팀work에서 중요한 부분이라는 것을 알 수 있었습니다.
+				이번 프로젝트를 통해 관계형 데이터베이스가 어떤 구조로 이루어져 있는지, 어떻게 관계를 설정하며 이 관계를 통해서 전체적인 DB를 구성하게 되는지에 대한 전체적인 감을 익힐 수 있었습니다.
+				또한, 사용자에게 입력받은 값들이 백엔드에서 어떻게 작업이 이뤄지게 되는지 대략적인 흐름을 파악할 수 있었습니다.
+				</p>
+				
+			<!-- </p> -->
+		</div>
+		<div class="back"><a href="#project2">프로젝트 상단으로 이동</a></div>
+	</section>	
+	<!-- End Sample Area -->
+
+	<!-- Start Sample Area -->
+	<a name="weeekendFarm"></a>
+	<section id="project1" class="sample-text-area">
+		<div class="container box_1170" id="elements-wrap">
+			<h3 class="text-heading">◆ 파일 입출력 기반의 데이터 처리 자바 콘솔 프로젝트
+				<input type="button" onclick="location.href='https://github.com/rizzy-yu/project1.git';" value="Github" class="btn btn-success btn-sm">
+			</h3>
+			<figure class="imgLogin">
+				<a href="img/elements/project/0-0. 로그인 화면.PNG" class="popup popup-image"><img src="img/elements/project/0-0. 로그인 화면.PNG" alt="login"  title="클릭하여 확대" class="mainimage"></a>
+				<figcaption><b>▲</b> 이미지 클릭하여 확대가능</figcaption>
+			</figure>
+			<!-- <p class="sample-text"> -->
+				<strong>프로젝트명 |</strong><br>
+				<p><b>주말 농장 관리 프로그램 (Weekend Farm Management Program)</b>
+				</p>
+				<strong>요약 |</strong><br>
+				<p>고객과 직원, 관리자가 주말 농장 서비스를 이용할 수 있게 돕는 프로그램</p>
+				<br>
+				<strong>개발환경 |</strong><br>
+				<p>
+				-  기간: 2021. 05. 03(월) ~ 2021. 05. 11(화) (9일간)<br>
+				-  개발 플랫폼: Windows 10<br>
+				-  개발 툴: Eclipse (version 4.19.0)<br>
+				-  사용언어: Java (JDK 1.8)</p>
+
+				<br>
+				<strong>기획배경 |</strong><br>
+				<p>
+				- 파테크 등 먹거리를 자급자족하는 것에 대한 소비자들의 관심증가<br>
+				- 주말농장 서비스를 이용하는 고객들의 수요에 맞는 고객 맞춤형 서비스의 부재<br>
+				- 작물에 대한 난이도별 커리큘럼과 수확한 작물에 대한 거래 시스템에 대한 고객의 니즈<br>
+				- 관리자의 회원 및 직원관리, 재고수량파악에 대한 어려움</p>
+				<br>
+				<strong>판매대상 |</strong><br>
+				주말 농장 관리자<br>
+				<br>
+				<strong>이용자 |</strong><br>
+				주말 농장 고객, 관리자, 직원<br>
+				<br>
+				<strong>구현목표 |</strong><br>
+				<p style="margin-bottom: 10px;"><!-- <div class="section-top-border"> -->
+					<div class="row">
+						<div class="col-md-4">
+							<div class="single-defination">
+								<strong>1.</strong><br>
+								<p>주말농장 이용을 위한 텃밭대여 시스템</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="single-defination">
+								<strong>2.</strong><br>
+								<p>주말농장 운영에 위한 회원 및 직원관리 시스템</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="single-defination">
+								<strong>3.</strong><br>
+								<p>수확물에 대한 거래소 제공</p>
+							</div>
+						</div>
+					</div>
+				</p>
+				<!-- </div> -->
+				<strong>사용기술 |</strong>
+				<table>
+					<tr>
+						<th>기술분야</th>
+						<th>상세내용</th>
+					</tr>
+					<tr>
+						<td>파일 입출력</td>
+						<td>BufferedReader, Writer(new FileReader, Writer( "path" ), Scanner</td>
+					</tr>
+					<tr>
+						<td>컬렉션</td>
+						<td>ArrayList&lt;T&gt;, HashMap&lt;T&gt; 등</td>
+					</tr>
+					<tr>
+						<td>오버로딩, <br>오버라이딩</td>
+						<td>생성자 오버로딩, 객체에 속한 ArrayList 함수의 재구현</td>
+					</tr>
+					<tr>
+						<td>기타 클래스 </td>
+						<td><ul>
+							<li>데이터를 생성하기 위한 Random, Math클래스,</li>
+							<li>텃밭 대여, 방문 예약을 위해 Calendar 클래스를 이용하여 날짜 계산,</li>
+							<li>거래 중인 작물들에 대한 File클래스를 이용하여 임시의 데이터공간 제공,</li>
+							<li>ProcessBuilder클래스를 이용하여 외부 회원 농장 계약서 파일 실행</li>
+						</ul></td>
+					</tr>
+				</table>
+				<br><br>
+				
+				<strong>담당업무 |</strong><br>
+				<table id="mission1">
+					<tr>
+						<th>업무</th>
+						<th>상세내용</th>
+					</tr>
+					<tr>
+						<td style="vertical-align: top; padding-top: 10px;">[로그인]<br>- 로그인 기능</td>
+						<td>
+							<b>회원(X), 직원(Y), 관리자(Z)는<br> 
+							각각의 고유받은 번호 4자리를 입력하여 로그인을 한 후,<br>
+							자신의 상황에 맞는 초기화면을 확인할 수 있다.</b><br>
+							<br>
+							*유효성 검사: 총 4글자가 아닌 경우, <br>고유의 알파벳을 벗어난 경우 에러메시지를 확인할 수 있다.
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td>[회원]<br>- 1. 내 농장 조회 메뉴</td>
+						<td>
+							<b>재배중인 농작물, 텃밭 현황, 농작물(씨앗) 구매 내역,<br>
+							농기구 대여 내역, 농장 계약서 조회 기능</b><br>
+						</td>
+					</tr>
+					<tr>
+						<td>[직원, 관리자]<br>- 2. 회원 농장 조회 메뉴</td>
+						<td>
+							<b>전체 회원들의 회원정보, 텃밭 현황, 농자재 구매 내역,<br>
+							농기구 대여 내역, 농장계약서 조회 기능</b><br>
+						</td>
+					</tr>
+				</table>
+				<br><br>
+
+				<strong>구현화면 |</strong><br>
+				<!-- 글+그림 -->
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>로그인</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/0-2-0. 로그인.png" class="popup popup-image"><img src="img/elements/project/0-2-0. 로그인.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X), 직원(Y), 관리자(Z)는<br> 
+								각각의 고유받은 번호 4자리를 입력하여 로그인을 한 후,<br>
+								자신의 상황에 맞는 초기화면을 확인할 수 있다.<br>
+								<br>
+								*유효성 검사 : 총 4글자가 아닌 경우, <br>고유의 알파벳을 벗어난 경우 에러메시지를 확인할 수 있다.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- 사이여백 -->
+				<div style="margin-top: 50px;"><h3>[회원]</h3></div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>회원 서비스 초기화면</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/0-2. 로그인.png" class="popup popup-image"><img src="img/elements/project/0-2. 로그인.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X)은 자신의 회원번호를 입력하여 로그인을 한 후,<br>
+								"안녕하세요, 회원 X000님"이라는 메시지와 함께<br>
+								초기 메뉴화면을 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>회원 초기 메뉴 - 1. 내 농장 조회 메뉴</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/1-1-0. 내 농장 조회 메뉴.png" class="popup popup-image"><img src="img/elements/project/1-1-0. 내 농장 조회 메뉴.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X)은 내 농장 조회(1번)을 선택하기 위해<br>
+								메뉴 선택에 숫자 '1'을 입력하면,<br>
+								하위 메뉴 (재배 농작물 확인, 텃밭 현황, 농작물 구매내역,<br>
+								농기구 대여 현황, 농장 계약서 조회)를 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>내 농장 조회 메뉴 - 1. 재배 농작물 확인</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/1-1-1. 내 농장 조회.png" class="popup popup-image"><img src="img/elements/project/1-1-1. 내 농장 조회.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X)은 [내 농장 조회] 메뉴에서 [재배 농작물 확인](1번)을 입력하면<br>
+								자신의 농장에서 재배했던, 재배중인 농장물들의<br>
+								농작물 번호, 이름, 종류, 재배 수량, 재배일자, 가격 등을 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>내 농장 조회 메뉴 - 2. 텃밭 현황</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/1-1-2. 텃밭 현황.png" class="popup popup-image"><img src="img/elements/project/1-1-2. 텃밭 현황.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X)은 [내 농장 조회] 메뉴에서 [텃밭 현황](2번)을 입력하면<br>
+								자신이 계약을 한 텃밭의<br>
+								총 면적, 대여 시작일, 대여 종료일, 계약 가격 등을 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>내 농장 조회 메뉴 - 3. 농작물 구매내역</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/1-1-4. 농작물 구매내역.png" class="popup popup-image"><img src="img/elements/project/1-1-4. 농작물 구매내역.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X)은 [내 농장 조회] 메뉴에서 [농작물 구매내역](3번)을 입력하면<br>
+								자신이 주말농장 서비스(Weekend Farm)로부터 구매한 농작물의<br>
+								농작물 번호, 종류, 이름, 씨앗 수량, 씨앗 가격, 총 결재 금액 등을 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>내 농장 조회 메뉴 - 4. 농기구 대여현황</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/1-1-5. 농기구 대여 현황.png" class="popup popup-image"><img src="img/elements/project/1-1-5. 농기구 대여 현황.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X)은 [내 농장 조회] 메뉴에서 [농기구 대여현황](4번)을 입력하면<br>
+								자신이 주말농장 서비스(Weekend Farm)로부터 대여한 농기구의<br>
+								농작물 번호, 이름, 대여 개수, 대여 시작일, 대여 종료일, 총 결제 금액 등을 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>내 농장 조회 메뉴 - 5. 농장 계약서 조회</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/1-1-6. 농장계약서조회.png" class="popup popup-image"><img src="img/elements/project/1-1-6. 농장계약서조회.png" alt="" class="img-fluid"></a>
+							<br><br>
+							<a href="img/elements/project/1-1-6. 농장계약서조회_실행창.png" class="popup popup-image"><img src="img/elements/project/1-1-6. 농장계약서조회_실행창.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								회원(X)은 [내 농장 조회] 메뉴에서 [농장 계약서 조회](5번)을 입력하면<br>
+								"실행된 파일을 확인하세요."라는 메시지와 함께<br>
+								주말농장 서비스(Weekend Farm)와 계약시 작성했던<br>
+								계약서 파일을 확인할 수 있다.
+								<br><br><br><br><br>←(Weekend Farm 분양 계약서 열람 가능)
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- 사이여백 -->
+				<div style="margin-top: 50px;"><h3>[직원, 관리자]</h3></div>
+				<!-- 직원 -->
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>직원 서비스 초기화면</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/7-0-1 직원로그인.png" class="popup popup-image"><img src="img/elements/project/7-0-1 직원로그인.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								직원(Y)은 자신의 회원번호를 입력하여 로그인을 한 후,<br>
+								"안녕하세요, 직원 Y000님"이라는 메시지와 함께<br>
+								초기 메뉴화면을 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>관리자 서비스 초기화면</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/8-0-2 관리자로그인.png" class="popup popup-image"><img src="img/elements/project/8-0-2 관리자로그인.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								관리자(Z)은 자신의 회원번호를 입력하여 로그인을 한 후,<br>
+								"안녕하세요, 관리자 X000님"이라는 메시지와 함께<br>
+								초기 메뉴화면을 확인할 수 있다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><B>직원, 관리자 초기 메뉴 - 2. 회원 농장 조회 메뉴</B></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/7-2-0 회원농장 조회 메뉴화면.png" class="popup popup-image"><img src="img/elements/project/7-2-0 회원농장 조회 메뉴화면.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="img/elements/project/8-2-0 회원농장 조회 메뉴화면.png" class="popup popup-image"><img src="img/elements/project/8-2-0 회원농장 조회 메뉴화면.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="mt-sm-20">
+							<p>
+								직원(Y), 관리자(Z)는 <br>
+								[회원 농장 조회](2번)을 선택하기 위해<br>
+								메뉴 선택에 숫자 '2'을 입력하면,<br>
+								하위 메뉴 (회원 텃밭 현황, 회원 정보 검색,<br>
+								회원 농자재 구매내역, 회원 농기구 구매내역,<br>
+								회원 농장계약서)를 확인할 수 있다.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>회원 농장 조회 메뉴 - 1. 회원 텃밭 현황</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/7-2-1-1. 회원텃밭현황.png" class="popup popup-image"><img src="img/elements/project/7-2-1-1. 회원텃밭현황.png" alt="" class="img-fluid"></a>
+							<br><br>
+							<a href="img/elements/project/7-2-1-2. 회원텃밭현황.png" class="popup popup-image"><img src="img/elements/project/7-2-1-2. 회원텃밭현황.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								직원(Y), 관리자(Z)는 [회원 농장 조회 메뉴] 메뉴에서 [회원 텃밭 현황](1번)을 입력하면<br>
+								전체 회원들의 텃밭 현황 리스트를 확인할 수 있다.<br>
+								그리고 원하는 회원의 번호만을 입력하여 추가로 조회할 수 있다.
+								<br><br><br>← (특정한 회원 번호를 입력시, 해당 회원의 정보만을 조회할 수 있음)
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>회원 농장 조회 메뉴 - 2. 회원 정보 검색</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/7-2-2-1 회원정보검색.png" class="popup popup-image"><img src="img/elements/project/7-2-2-1 회원정보검색.png" alt="" class="img-fluid"></a>
+							<br><br>
+							<a href="img/elements/project/7-2-2-2 회원정보검색.png" class="popup popup-image"><img src="img/elements/project/7-2-2-2 회원정보검색.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								직원(Y), 관리자(Z)는 [회원 농장 조회 메뉴] 메뉴에서 [회원 정보 검색](2번)을 입력하면<br>
+								전체 회원들의 회원 정보 리스트를 확인할 수 있다.<br>
+								그리고 원하는 회원의 번호만을 입력하여 추가로 조회할 수 있다.
+								<br><br><br>← (특정한 회원 번호를 입력시, 해당 회원의 정보만을 조회할 수 있음)
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>회원 농장 조회 메뉴 - 3. 회원 농자재 구매내역</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/7-2-3-1 회원농자재 구매내역.png" class="popup popup-image"><img src="img/elements/project/7-2-3-1 회원농자재 구매내역.png" alt="" class="img-fluid"></a>
+							<br><br>
+							<a href="img/elements/project/7-2-3-2 회원농자재 구매내역.png" class="popup popup-image"><img src="img/elements/project/7-2-3-2 회원농자재 구매내역.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								직원(Y), 관리자(Z)는 [회원 농장 조회 메뉴] 메뉴에서 [회원 농자재 구매내역](3번)을 입력하면<br>
+								전체 회원들의 농자재 구매내역 리스트를 확인할 수 있다.<br>
+								그리고 원하는 회원의 번호만을 입력하여 추가로 조회할 수 있다.
+								<br><br><br><br>← (특정한 회원 번호를 입력시, 해당 회원의 정보만을 조회할 수 있음)
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><B>회원 농장 조회 메뉴 - 4. 회원 농기구 대여내역</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/7-2-4-1 회원농기구 구매내역.png" class="popup popup-image"><img src="img/elements/project/7-2-4-1 회원농기구 구매내역.png" alt="" class="img-fluid"></a>
+							<br><br>
+							<a href="img/elements/project/7-2-4-2 회원농기구 대여내역.png" class="popup popup-image"><img src="img/elements/project/7-2-4-2 회원농기구 대여내역.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								직원(Y), 관리자(Z)는 [회원 농장 조회 메뉴] 메뉴에서 [회원 농기구 대여내역](4번)을 입력하면<br>
+								전체 회원들의 농기구 대여내역 리스트를 확인할 수 있다.<br>
+								그리고 원하는 회원의 번호만을 입력하여 추가로 조회할 수 있다.
+								<br><br><br><br>← (특정한 회원 번호를 입력시, 해당 회원의 정보만을 조회할 수 있음)
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-top-border">
+					<h4 class="mb-30"><b>회원 농장 조회 메뉴 - 5. 회원 농장계약서</b></h4>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="img/elements/project/7-2-5-1 회원 농장계약서.png" class="popup popup-image"><img src="img/elements/project/7-2-5-1 회원 농장계약서.png" alt="" class="img-fluid"></a>
+							<br><br>
+							<a href="img/elements/project/7-2-5-2 회원 농장계약서.png" class="popup popup-image"><img src="img/elements/project/7-2-5-2 회원 농장계약서.png" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-md-9 mt-sm-20">
+							<p>
+								직원(Y), 관리자(Z)는 [회원 농장 조회 메뉴] 메뉴에서 [회원 농장계약서](5번)을 입력하면<br>
+								전체 회원들의 농장 계약서 리스트를 확인할 수 있다.<br>
+								그리고 원하는 회원의 번호만을 입력하여 추가로 조회할 수 있다.
+								<br><br><br><br><br><br><br>← (특정한 회원 번호를 입력시, 해당 회원의 Weekend Farm 분양 계약서 열람 가능)
+							</p>
+						</div>
+					</div>
+				</div>
+				<strong>프로젝트 스토리 |</strong><br>
+				쌍용교육센터의 첫번째 프로젝트였습니다. 최대한 많은 데이터를 다루면서도 기존에 구현되지 않은 서비스를 구현해보고자 했습니다.
+				첫 프로젝트인 만큼, 팀원들과 열심히 주제를 설정하고 각 기능들을 요구분석서에 정리하였습니다.
+				처음하는 요구분석이라 쉽지 않았지만, 이 프로그램의 클라이언트와 주 이용자들의 입장에서 생각하며 어떤 기능들이 구현돼야 할지 브레인스토밍의 시간을 가졌습니다.
+				각 이해관계자(고객, 직원, 관리자)들의 니즈를 파악하여 '요구분석서'를 작성하였으며, 요구분석서에 따른 구현기능들을 정리한 '기능명세서'와 실제 화면으로 클라이언트에게 구현과정을 보여줄 수 있는 '화면설계' 파일을 작성했습니다.<br>
+				<br>
+				실제로 업무에 필요한 기술들은 수업 시간 때 배운 내용들을 기반으로 구현해보았습니다. 기능에 필요한 Class를 생성하고, getter & setter메소드를 통해 자료를
+				처리했습니다. 또한, ArrayList<T>, HashMap<T> 등을 사용하며 제네릭을 좀 더 심도있게 활용할 수 있는 기회였습니다.	더미데이터를 생성하기 위해 Random, Math클래스를 활용하였고, 파일입출력을 위해 BufferedReader, Writer(new FileReader, Writer( "path" ), Scanner을 사용하여 사용자에게 데이터를 입력받았습니다. 또한, ProcessBuilder클래스를 이용하여 외부 회원 농장 계약서 파일 실행 시켜 프로그램의 현실감을 좀 더 높였습니다. 수업 시간에 배운 내용들을 프로젝트에 하나하나 적용해보며 원하는 기능으로 구현하는 과정에서 큰 기쁨과 보람을 느꼈습니다.<br>
+				<br>
+				특히, 팀원 모두가 처음으로 하는 프로젝트였기 때문에 매 순간이 질문의 과정이었고 어려웠습니다. 하지만, 팀원들이 있었기에 서로 의지하며 어려운 문제들을 풀어나갈 수 있었습니다. 약 1주일이라는 짧은 기간 동안 최대한 일정에 맞춰 프로젝트를 마감하는 것이 목표였고, 저희 조는 마감일을 지키며 프로젝트를 제출할 수 있었습니다.
+				</p>
+			</p>
+		</div>
+		<div class="back"><a href="#project1">프로젝트 상단으로 이동</a></div>
+	</section>
+	
+
+	<!-- 네번째 프로젝트 -->
+	<!-- <a name="FourthProject"></a>
+	<section  id="project4" class="sample-text-area">
+		<div class="container box_1170" id="elements-wrap">
+			<h3 class="text-heading">4. 네번째 프로젝트</h3>
+			<p class="sample-text">
+				Every avid independent filmmaker has <b>Bold</b> about making that <i>Italic</i> interest documentary,
+				or short
+				film to show off their creative prowess. Many have great ideas and want to “wow”
+				the<sup>Superscript</sup> scene,
+				or video renters with their big project. But once you have the<sub>Subscript</sub> “in the can” (no easy
+				feat), how
+				do you move from a <del>Strike</del> through of master DVDs with the <u>“Underline”</u> marked
+				
+
+			</p>
+		</div>
+		<div class="back"><a href="#project4">프로젝트 상단으로 이동</a></div>
+	</section> -->
+
+
+
+	<!-- 문단) 왼쪽정렬 & 오른쪽정렬 -->
+	<!-- <div class="whole-wrap">
+		<div class="container box_1170">
+			<div class="section-top-border">
+				<h3 class="mb-30">Left Aligned</h3>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/elements/0-2. 로그인.PNG" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-9 mt-sm-20">
+						<p>Recently, the US Federal government banned online casinos from operating in America by making
+							it illegal to
+							transfer money to them through any US bank or payment system. As a result of this law, most
+							of the popular
+							online casino networks such as Party Gaming and PlayTech left the United States. Overnight,
+							online casino
+							players found themselves being chased by the Federal government. But, after a fortnight, the
+							online casino
+							industry came up with a solution and new online casinos started taking root. These began to
+							operate under a
+							different business umbrella, and by doing that, rendered the transfer of money to and from
+							them legal. A major
+							part of this was enlisting electronic banking systems that would accept this new
+							clarification and start doing
+							business with me. Listed in this article are the electronic banking systems that accept
+							players from the United
+							States that wish to play in online casinos.</p>
+					</div>
+				</div>
+			</div>
+			<div class="section-top-border text-right">
+				<h3 class="mb-30">Right Aligned</h3>
+				<div class="row">
+					<div class="col-md-9">
+						<p class="text-right">Over time, even the most sophisticated, memory packed computer can begin
+							to run slow if we
+							don’t do something to prevent it. The reason why has less to do with how computers are made
+							and how they age and
+							more to do with the way we use them. You see, all of the daily tasks that we do on our PC
+							from running programs
+							to downloading and deleting software can make our computer sluggish. To keep this from
+							happening, you need to
+							understand the reasons why your PC is getting slower and do something to keep your PC
+							running at its best. You
+							can do this through regular maintenance and PC performance optimization programs</p>
+						<p class="text-right">Before we discuss all of the things that could be affecting your PC’s
+							performance, let’s
+							talk a little about what symptoms</p>
+					</div>
+					<div class="col-md-3">
+						<img src="img/elements/d.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div> -->
+
+			<!-- 정의 1,2,3 -->
+			<!-- <div class="section-top-border">
+				<h3 class="mb-30">Definition</h3>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="single-defination">
+							<h4 class="mb-20">Definition 01</h4>
+							<p>Recently, the US Federal government banned online casinos from operating in America by
+								making it illegal to
+								transfer money to them through any US bank or payment system. As a result of this law,
+								most of the popular
+								online casino networks</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-defination">
+							<h4 class="mb-20">Definition 02</h4>
+							<p>Recently, the US Federal government banned online casinos from operating in America by
+								making it illegal to
+								transfer money to them through any US bank or payment system. As a result of this law,
+								most of the popular
+								online casino networks</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-defination">
+							<h4 class="mb-20">Definition 03</h4>
+							<p>Recently, the US Federal government banned online casinos from operating in America by
+								making it illegal to
+								transfer money to them through any US bank or payment system. As a result of this law,
+								most of the popular
+								online casino networks</p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- 인용구 -->
+			<!-- <div class="section-top-border">
+				<h3 class="mb-30">Block Quotes</h3>
+				<div class="row">
+					<div class="col-lg-12">
+						<blockquote class="generic-blockquote">
+							“Recently, the US Federal government banned online casinos from operating in America by
+							making it illegal to
+							transfer money to them through any US bank or payment system. As a result of this law, most
+							of the popular
+							online casino networks such as Party Gaming and PlayTech left the United States. Overnight,
+							online casino
+							players found themselves being chased by the Federal government. But, after a fortnight, the
+							online casino
+							industry came up with a solution and new online casinos started taking root. These began to
+							operate under a
+							different business umbrella, and by doing that, rendered the transfer of money to and from
+							them legal. A major
+							part of this was enlisting electronic banking systems that would accept this new
+							clarification and start doing
+							business with me. Listed in this article are the electronic banking”
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			<div class="section-top-border">
+				<h3 class="mb-30">Table</h3>
+				<div class="progress-table-wrap">
+					<div class="progress-table">
+						<div class="table-head">
+							<div class="serial">#</div>
+							<div class="country">Countries</div>
+							<div class="visit">Visits</div>
+							<div class="percentage">Percentages</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">01</div>
+							<div class="country"> <img src="img/elements/f1.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-1" role="progressbar" style="width: 80%"
+										aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">02</div>
+							<div class="country"> <img src="img/elements/f2.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-2" role="progressbar" style="width: 30%"
+										aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">03</div>
+							<div class="country"> <img src="img/elements/f3.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-3" role="progressbar" style="width: 55%"
+										aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">04</div>
+							<div class="country"> <img src="img/elements/f4.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-4" role="progressbar" style="width: 60%"
+										aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">05</div>
+							<div class="country"> <img src="img/elements/f5.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-5" role="progressbar" style="width: 40%"
+										aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">06</div>
+							<div class="country"> <img src="img/elements/f6.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-6" role="progressbar" style="width: 70%"
+										aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">07</div>
+							<div class="country"> <img src="img/elements/f7.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-7" role="progressbar" style="width: 30%"
+										aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+						<div class="table-row">
+							<div class="serial">08</div>
+							<div class="country"> <img src="img/elements/f8.jpg" alt="flag">Canada</div>
+							<div class="visit">645032</div>
+							<div class="percentage">
+								<div class="progress">
+									<div class="progress-bar color-8" role="progressbar" style="width: 60%"
+										aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section-top-border">
+				<h3>Image Gallery</h3>
+				<div class="row gallery-item">
+					<div class="col-md-4">
+						<a href="img/elements/g1.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g1.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g2.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g2.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g3.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g3.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="img/elements/g4.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g4.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="img/elements/g5.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g5.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g6.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g6.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g7.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g7.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g8.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g8.jpg);"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="section-top-border">
+				<div class="row">
+					<div class="col-md-4">
+						<h3 class="mb-20">Image Gallery</h3>
+						<div class="typography">
+							<h1>This is header 01</h1>
+							<h2>This is header 02</h2>
+							<h3>This is header 03</h3>
+							<h4>This is header 04</h4>
+							<h5>This is header 01</h5>
+							<h6>This is header 01</h6>
+						</div>
+					</div>
+					<div class="col-md-4 mt-sm-30">
+						<h3 class="mb-20">Unordered List</h3>
+						<div class="">
+							<ul class="unordered-list">
+								<li>Fta Keys</li>
+								<li>For Women Only Your Computer Usage</li>
+								<li>Facts Why Inkjet Printing Is Very Appealing
+									<ul>
+										<li>Addiction When Gambling Becomes
+											<ul>
+												<li>Protective Preventative Maintenance</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>Dealing With Technical Support 10 Useful Tips</li>
+								<li>Make Myspace Your Best Designed Space</li>
+								<li>Cleaning And Organizing Your Computer</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 mt-sm-30">
+						<h3 class="mb-20">Ordered List</h3>
+						<div class="">
+							<ol class="ordered-list">
+								<li><span>Fta Keys</span></li>
+								<li><span>For Women Only Your Computer Usage</span></li>
+								<li><span>Facts Why Inkjet Printing Is Very Appealing</span>
+									<ol class="ordered-list-alpha">
+										<li><span>Addiction When Gambling Becomes</span>
+											<ol class="ordered-list-roman">
+												<li><span>Protective Preventative Maintenance</span></li>
+											</ol>
+										</li>
+									</ol>
+								</li>
+								<li><span>Dealing With Technical Support 10 Useful Tips</span></li>
+								<li><span>Make Myspace Your Best Designed Space</span></li>
+								<li><span>Cleaning And Organizing Your Computer</span></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section-top-border">
+				<div class="row">
+					<div class="col-lg-8 col-md-8">
+						<h3 class="mb-30">Form Element</h3>
+						<form action="#">
+							<div class="mt-10">
+								<input type="text" name="first_name" placeholder="First Name"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
+									class="single-input">
+							</div>
+							<div class="mt-10">
+								<input type="text" name="last_name" placeholder="Last Name"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required
+									class="single-input">
+							</div>
+							<div class="mt-10">
+								<input type="text" name="last_name" placeholder="Last Name"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required
+									class="single-input">
+							</div>
+							<div class="mt-10">
+								<input type="email" name="EMAIL" placeholder="Email address"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required
+									class="single-input">
+							</div>
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
+								<input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Address'" required class="single-input">
+							</div>
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+								<div class="form-select" id="default-select"">
+											<select>
+												<option value=" 1">City</option>
+									<option value="1">Dhaka</option>
+									<option value="1">Dilli</option>
+									<option value="1">Newyork</option>
+									<option value="1">Islamabad</option>
+									</select>
+								</div>
+							</div>
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+								<div class="form-select" id="default-select"">
+											<select>
+												<option value=" 1">Country</option>
+									<option value="1">Bangladesh</option>
+									<option value="1">India</option>
+									<option value="1">England</option>
+									<option value="1">Srilanka</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="mt-10">
+								<textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Message'" required></textarea>
+							</div> -->
+						<!-- For Gradient Border Use -->
+							<!-- <div class="mt-10">
+										<div class="primary-input">
+											<input id="primary-input" type="text" name="first_name" placeholder="Primary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'">
+											<label for="primary-input"></label>
+										</div>
+									</div>
+							<div class="mt-10">
+								<input type="text" name="first_name" placeholder="Primary color"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'" required
+									class="single-input-primary">
+							</div>
+							<div class="mt-10">
+								<input type="text" name="first_name" placeholder="Accent color"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Accent color'" required
+									class="single-input-accent">
+							</div>
+							<div class="mt-10">
+								<input type="text" name="first_name" placeholder="Secondary color"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Secondary color'"
+									required class="single-input-secondary">
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-sm-30">
+						<div class="single-element-widget">
+							<h3 class="mb-30">Switches</h3>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>01. Sample Switch</p>
+								<div class="primary-switch">
+									<input type="checkbox" id="default-switch">
+									<label for="default-switch"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>02. Primary Color Switch</p>
+								<div class="primary-switch">
+									<input type="checkbox" id="primary-switch" checked>
+									<label for="primary-switch"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>03. Confirm Color Switch</p>
+								<div class="confirm-switch">
+									<input type="checkbox" id="confirm-switch" checked>
+									<label for="confirm-switch"></label>
+								</div>
+							</div>
+						</div>
+						<div class="single-element-widget mt-30">
+							<h3 class="mb-30">Selectboxes</h3>
+							<div class="default-select" id="default-select"">
+										<select>
+											<option value=" 1">English</option>
+								<option value="1">Spanish</option>
+								<option value="1">Arabic</option>
+								<option value="1">Portuguise</option>
+								<option value="1">Bengali</option>
+								</select>
+							</div>
+						</div>
+						<div class="single-element-widget mt-30">
+							<h3 class="mb-30">Checkboxes</h3>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>01. Sample Checkbox</p>
+								<div class="primary-checkbox">
+									<input type="checkbox" id="default-checkbox">
+									<label for="default-checkbox"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>02. Primary Color Checkbox</p>
+								<div class="primary-checkbox">
+									<input type="checkbox" id="primary-checkbox" checked>
+									<label for="primary-checkbox"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>03. Confirm Color Checkbox</p>
+								<div class="confirm-checkbox">
+									<input type="checkbox" id="confirm-checkbox">
+									<label for="confirm-checkbox"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>04. Disabled Checkbox</p>
+								<div class="disabled-checkbox">
+									<input type="checkbox" id="disabled-checkbox" disabled>
+									<label for="disabled-checkbox"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>05. Disabled Checkbox active</p>
+								<div class="disabled-checkbox">
+									<input type="checkbox" id="disabled-checkbox-active" checked disabled>
+									<label for="disabled-checkbox-active"></label>
+								</div>
+							</div>
+						</div>
+						<div class="single-element-widget mt-30">
+							<h3 class="mb-30">Radios</h3>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>01. Sample radio</p>
+								<div class="primary-radio">
+									<input type="checkbox" id="default-radio">
+									<label for="default-radio"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>02. Primary Color radio</p>
+								<div class="primary-radio">
+									<input type="checkbox" id="primary-radio" checked>
+									<label for="primary-radio"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>03. Confirm Color radio</p>
+								<div class="confirm-radio">
+									<input type="checkbox" id="confirm-radio" checked>
+									<label for="confirm-radio"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>04. Disabled radio</p>
+								<div class="disabled-radio">
+									<input type="checkbox" id="disabled-radio" disabled>
+									<label for="disabled-radio"></label>
+								</div>
+							</div>
+							<div class="switch-wrap d-flex justify-content-between">
+								<p>05. Disabled radio active</p>
+								<div class="disabled-radio">
+									<input type="checkbox" id="disabled-radio-active" checked disabled>
+									<label for="disabled-radio-active"></label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- End Align Area -->
+	
+	<!-- Start Button -->
+	<!-- <section class="button-area">
+		<div class="container box_1170 border-top-generic">
+			<h3 class="text-heading">Sample Buttons</h3>
+			<div class="button-group-area">
+				<a href="#" class="genric-btn default">Default</a>
+				<a href="#" class="genric-btn primary">Primary</a>
+				<a href="#" class="genric-btn success">Success</a>
+				<a href="#" class="genric-btn info">Info</a>
+				<a href="#" class="genric-btn warning">Warning</a>
+				<a href="#" class="genric-btn danger">Danger</a>
+				<a href="#" class="genric-btn link">Link</a>
+				<a href="#" class="genric-btn disable">Disable</a>
+			</div>
+			<div class="button-group-area mt-10">
+				<a href="#" class="genric-btn default-border">Default</a>
+				<a href="#" class="genric-btn primary-border">Primary</a>
+				<a href="#" class="genric-btn success-border">Success</a>
+				<a href="#" class="genric-btn info-border">Info</a>
+				<a href="#" class="genric-btn warning-border">Warning</a>
+				<a href="#" class="genric-btn danger-border">Danger</a>
+				<a href="#" class="genric-btn link-border">Link</a>
+				<a href="#" class="genric-btn disable">Disable</a>
+			</div>
+			<div class="button-group-area mt-40">
+				<a href="#" class="genric-btn default radius">Default</a>
+				<a href="#" class="genric-btn primary radius">Primary</a>
+				<a href="#" class="genric-btn success radius">Success</a>
+				<a href="#" class="genric-btn info radius">Info</a>
+				<a href="#" class="genric-btn warning radius">Warning</a>
+				<a href="#" class="genric-btn danger radius">Danger</a>
+				<a href="#" class="genric-btn link radius">Link</a>
+				<a href="#" class="genric-btn disable radius">Disable</a>
+			</div>
+			<div class="button-group-area mt-10">
+				<a href="#" class="genric-btn default-border radius">Default</a>
+				<a href="#" class="genric-btn primary-border radius">Primary</a>
+				<a href="#" class="genric-btn success-border radius">Success</a>
+				<a href="#" class="genric-btn info-border radius">Info</a>
+				<a href="#" class="genric-btn warning-border radius">Warning</a>
+				<a href="#" class="genric-btn danger-border radius">Danger</a>
+				<a href="#" class="genric-btn link-border radius">Link</a>
+				<a href="#" class="genric-btn disable radius">Disable</a>
+			</div>
+			<div class="button-group-area mt-40">
+				<a href="#" class="genric-btn default circle">Default</a>
+				<a href="#" class="genric-btn primary circle">Primary</a>
+				<a href="#" class="genric-btn success circle">Success</a>
+				<a href="#" class="genric-btn info circle">Info</a>
+				<a href="#" class="genric-btn warning circle">Warning</a>
+				<a href="#" class="genric-btn danger circle">Danger</a>
+				<a href="#" class="genric-btn link circle">Link</a>
+				<a href="#" class="genric-btn disable circle">Disable</a>
+			</div>
+			<div class="button-group-area mt-10">
+				<a href="#" class="genric-btn default-border circle">Default</a>
+				<a href="#" class="genric-btn primary-border circle">Primary</a>
+				<a href="#" class="genric-btn success-border circle">Success</a>
+				<a href="#" class="genric-btn info-border circle">Info</a>
+				<a href="#" class="genric-btn warning-border circle">Warning</a>
+				<a href="#" class="genric-btn danger-border circle">Danger</a>
+				<a href="#" class="genric-btn link-border circle">Link</a>
+				<a href="#" class="genric-btn disable circle">Disable</a>
+			</div>
+			<div class="button-group-area mt-40">
+				<a href="#" class="genric-btn default circle arrow">Default<span class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn primary circle arrow">Primary<span class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn success circle arrow">Success<span class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn info circle arrow">Info<span class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn warning circle arrow">Warning<span class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn danger circle arrow">Danger<span class="lnr lnr-arrow-right"></span></a>
+			</div>
+			<div class="button-group-area mt-10">
+				<a href="#" class="genric-btn default-border circle arrow">Default<span
+						class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn primary-border circle arrow">Primary<span
+						class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn success-border circle arrow">Success<span
+						class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn info-border circle arrow">Info<span
+						class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn warning-border circle arrow">Warning<span
+						class="lnr lnr-arrow-right"></span></a>
+				<a href="#" class="genric-btn danger-border circle arrow">Danger<span
+						class="lnr lnr-arrow-right"></span></a>
+			</div>
+			<div class="button-group-area mt-40">
+				<a href="#" class="genric-btn primary e-large">Extra Large</a>
+				<a href="#" class="genric-btn success large">Large</a>
+				<a href="#" class="genric-btn primary">Default</a>
+				<a href="#" class="genric-btn success medium">Medium</a>
+				<a href="#" class="genric-btn primary small">Small</a>
+			</div>
+			<div class="button-group-area mt-10">
+				<a href="#" class="genric-btn primary-border e-large">Extra Large</a>
+				<a href="#" class="genric-btn success-border large">Large</a>
+				<a href="#" class="genric-btn primary-border">Default</a>
+				<a href="#" class="genric-btn success-border medium">Medium</a>
+				<a href="#" class="genric-btn primary-border small">Small</a>
+			</div>
+		</div>
+	</section> -->
+	<!-- End Button -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <!-- <div class="row align-items-center">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="#">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>
+                                Firmament morning sixth subdue darkness
+                                creeping gathered divide.
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                    Services
+                            </h3>
+                            <ul>
+                                <li><a href="#">Team management</a></li>
+                                <li><a href="#">Collaboration</a></li>
+                                <li><a href="#">Todo</a></li>
+                                <li><a href="#">Events</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                    Useful Links
+                            </h3>
+                            <ul>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                    Downloads
+                            </h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Download from Apple Store
+
+                                    </a>
+                                </li>
+                                <li><a href="#">
+                                        Download from Play Store
+                                    </a>
+                                </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+	<!-- JS here -->
+	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/ajax-form.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/scrollIt.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/nice-select.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/gijgo.min.js"></script>
+
+	<!--contact js-->
+	<script src="js/contact.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.form.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/mail-script.js"></script>
+
+	<script src="js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+
+        });
+    </script>
+</body>
+</html>
